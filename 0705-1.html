@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>covid</title>
+
+<style>
+    * {margin: 0; padding: 0; box-sizing: border-box;}
+    h1 {display: none;}
+    section {max-width: 1000px; margin: auto; border: 5px dashed red; margin-top: 50px; position: relative; overflow: hidden;}
+
+    img {display: block;}
+    img:not(:first-of-type) {position: absolute;}
+    [src *= "bg4"] {width: 100%;}
+    [src *= "4-1.png"] {top: 14%; left: 0; width: 57%; animation:rotate 2.5s both;}
+    [src *= "4-2"] {top: 0; left: 0; width: 67%; animation:scale 2.5s both;}
+    [src *= "4-3"] {bottom: 0; left: 0; animation:up 2.5s both;}
+    [src *= "4-4"] {top: 0; right: 0; width: 30%; animation:opacity 3s both;}
+    [src *= "4-5"] {bottom: 0; left: 53%; width: 30%; animation:up 2.5s both;}
+    [src *= "4-6"] {bottom: 30%; right: 4%; width: 20%; animation:right1 1.5s both;}
+    [src *= "4-7"] {bottom: 20%; right: 4%; width: 20%; animation:right1 2s both;}
+    [src *= "4-8"] {bottom: 10%; right: 4%; width: 20%; animation:right1 2.5s both;}
+    [src *= "4-9"] {top: 0; right: 0; width: 30%; animation: star 2s both;}
+    [src *= "4-10"] {top: 15%; right: 15%; width: 30%; animation: rotate 3s both;}
+    [src *= "4-11"] {bottom: 0; left: 33%; width: 30%; animation:opacity 3s both;}
+
+
+    @keyframes star
+    {
+        0% { transform: translateX(100px);}
+        10% {transform: translatey(-200px);}
+        30% {transform: translatey(0);}
+        50% {transform: translatey(-100px);}
+        100%   {transform: translatey(0);}
+    }
+
+
+    @keyframes right1
+    {
+        from {transform: translatex(1000px);}
+        to   {transform: translatex(0px);}
+    }
+
+    @keyframes opacity
+    {
+        from {opacity: 0;}
+        to   {opacity: 1;}
+    }
+
+    @keyframes up
+    {
+        from {transform: translateY(50px);}
+        to   {transform: translateY(0px);}
+    }
+
+
+    @keyframes scale
+    {
+        from {transform: scaleX(0);}
+        to   {transform: scaleX(1);}
+    }
+
+    @keyframes rotate
+    {
+        from {transform: scale(0) rotate(720deg);}
+        to   {transform: scale(1) rotate(0);}
+    }
+
+    @keyframes rotate1
+    {
+        0% { transform: translateX(100px);}
+        10% {transform: translatey(-200px);}
+        30% {transform: translatey(0);}
+        50% {transform: translatey(-100px);}
+        100%   {transform: translatey(0);}
+    }
+
+
+</style>
+
+
+
+
+
+
+</head>
+<body>
+    <section>
+        <h1>코비드 극복하기</h1>
+        <img src="images/bg4.jpg" alt="배경">
+        <img src="images/4-1.png" alt="마스크">
+        <img src="images/4-2.png" alt="전염을 막는 방법">
+        <img src="images/4-3.png" alt="우리 함께 잘 견디고 이겨내요!">
+        <img src="images/4-4.png" alt="손청결제와 마스크">
+        <img src="images/4-5.png" alt="손청결제">
+        <img src="images/4-6.png" alt="뉴에티켓">
+        <img src="images/4-7.png" alt="팩트체크">
+        <img src="images/4-8.png" alt="치유레터">
+        <img src="images/4-9.png" alt="boom">
+        <img src="images/4-10.png" alt="지구와 돋보기">
+        <img src="images/4-11.png" alt="주소">
+    </section>    
+
+
+
+
+
+
+</body>
+</html>
